@@ -54,7 +54,7 @@ img{
 }
 
 .foto{
-   border-radius: px;
+   border-radius: 10px;
 }
 
 
@@ -103,10 +103,12 @@ nav a{
   padding: 13px;
   text-decoration: none;
   display: inline-block;
+  font-size: 8px;
 }
 
 .brand{
 color: #ecc032;
+font-size: 10px;
 }
 
 .logo{
@@ -362,3 +364,203 @@ footer{
   background: #FFEBC1;
   padding-top: 10px;
 }
+
+/***************************************************************************** Media queries (hasta 767 px) *****************/
+
+@media all and (max-width: 767px){
+
+  header{ 
+  width: 767px;
+  height: 20px;
+  }
+
+  p{
+    margin: 5px 0px;
+  }
+
+  .container{
+    margin: 15px;
+  }
+
+  h1,h2,h3,h4{
+    margin: 0px 0px;
+    color: #ecc032 ;
+    font-size: 12px;
+  }
+ 
+  .coloredSection{
+    background: #eeebf5;
+    padding: 5px 0px ;
+  }
+ 
+  hr{
+    width: 100%;
+    margin: 5px 0px;
+  }
+
+  .foto{
+    border-radius: 5px;
+ }
+ 
+
+ .tituloArticulo{
+  border-radius: 5px;
+  text-align: center;
+}
+
+.tituloArticulo2{
+   border-radius: 5px;
+   margin: 10px;
+}
+
+.card{
+  width: 40%;
+  margin:10px 0px;
+  padding: 5px;
+ 
+}
+
+header{
+  padding: 2px;
+  width: 100%;
+  z-index: 2;
+  height: 20px;
+}
+
+
+
+nav a{
+  padding: 2px;
+}
+
+.logo{
+  width: 20px;
+  height: 27px;
+  margin-left: 5px;
+}
+
+nav a:hover{
+  border-radius: 7px;
+}
+
+
+.navbar{
+  justify-content: space-evenly;
+  align-items: center;
+ }
+
+ .bienvenido{
+   top:70px;
+   z-index: 1;
+
+ }
+
+ .bienvenido{
+height: 40px;
+  width: 100%;
+
+ }
+
+ .parrafoTitulo{
+  font-weight: 20;
+  font-size: 8px;
+  margin: 0px;
+}
+
+.hamburguesas:hover{
+  font-size: normal;
+  border-radius: 7px;
+}
+
+.seccionMenu{
+  background-color:#4a5091 ;
+  border-radius: 10px;
+  }
+
+  .menu{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
+  }
+
+}
+
+/* 
+
+
+.card1{
+  background: #2847d4;
+  border: 5px solid #120653;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+
+.card2{
+  background: #bb1414;
+  border: 5px solid #7a0505;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}  
+
+
+.card3{
+  background: green;
+  border: 5px solid rgb(6, 71, 6);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}  
+
+.card4{
+  background: rgb(48, 47, 47);
+  border: 5px solid rgb(12, 12, 12);
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}  
+
+.card1:hover{
+  background-image: url(../img/federation.png);
+  filter: grayscale(0%);
+  filter: gray;
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease;
+}
+
+.card2:hover{
+  background-image: url(../img/klingon.png);
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease; 
+}
+
+.card3:hover{
+  background-image: url(../img/romulan.jfif);
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease;
+}
+
+.card4:hover{
+  background-image: url(../img/borg.png);
+  -webkit-filter: grayscale(0%);
+  filter: none;
+  transition: 1s ease; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
